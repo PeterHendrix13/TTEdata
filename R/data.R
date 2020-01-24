@@ -125,6 +125,87 @@
 "vb"
 
 
+#' Chinese lexical decision data
+#'
+#' Lexical decision data for Mandarin Chinese from Tsang et al. (2018)
+#'
+#' @format A matrix with 9,602 rows and 7 columns:
+#' \describe{
+#'   \item{\code{word}}{the item in the lexical decision task}
+#'   \item{\code{rt}}{the average response time in ms}
+#'   \item{\code{log.frequency}}{the (log-transformed) frequency of the word in the CLD}
+#'   \item{\code{length}}{the length of the word in characters}
+#'   \item{\code{sqrt.strokes}}{the (square root transformed) of the number of strokes in the word as a whole}
+#'   \item{\code{log.nwf}}{the (log-transformed) average of the number of words the characters in the word appear in}
+#'   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors}
+#' }
+#' @source Tsang, Y. K., Huang, J., Lui, M., Xue, M., Chan, Y. W. F., Wang, S., & Chen, H. C. (2018). MELD-SCH: A megastudy of lexical decision in simplified Chinese. Behavior research methods, 50(5), 1763-1777.
+#' 
+#' @references
+#' Sun, C. C., Hendrix, P., Ma, J., & Baayen, R. H. (2018). Chinese lexical database (CLD). Behavior research methods, 50(6), 2606-2629.
+"ld.chin"
+
+
+#' Lexical extinction data (English)
+#'
+#' Lexical extinction data for English based on the Google books n-gram data (Michel et al., 2011)
+#'
+#' @format A matrix with 49,929 rows and 8 columns:
+#' \describe{
+#'   \item{\code{word}}{the item in the word naming task}
+#'   \item{\code{time}}{time of the last observation; this equal 2000 if the word remained in the language and the decade in which the word disappeared from the language otherwise}
+#'   \item{\code{status}}{status of the word; 0 if the word remained in the language, 1 if the word disappeared from the language}
+#'   \item{\code{log.frequency}}{the (log-transformed) frequency of the word in the Google n-gram data for the decade from 1800 to 1810}
+#'   \item{\code{sqrt.length}}{the (square root transformed) length of the word in letters}
+#'   \item{\code{log.old}}{the (log-transformed) orthographic Levenshtein distance between the word and its 5 closest orthographic neighbors in 1810}
+#'   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors in 1810}
+#'   \item{\code{pos}}{the consistency of the mapping from orhography to phonology in 1810}
+#' }
+#' @source Michel, J. B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., Pickett, J. P., ... & Pinker, S. (2011). 
+#' Quantitative analysis of culture using millions of digitized books. science, 331(6014), 176-182.
+"hist.english"
+
+
+#' Lexical extinction data (German)
+#'
+#' Lexical extinction data for German based on the Google books n-gram data (Michel et al., 2011)
+#'
+#' @format A matrix with 24,685 rows and 8 columns:
+#' \describe{
+#'   \item{\code{word}}{the item in the word naming task}
+#'   \item{\code{time}}{time of the last observation; this equal 2000 if the word remained in the language and the decade in which the word disappeared from the language otherwise}
+#'   \item{\code{status}}{status of the word; 0 if the word remained in the language, 1 if the word disappeared from the language}
+#'   \item{\code{log.frequency}}{the (log-transformed) frequency of the word in the Google n-gram data for the decade from 1800 to 1810}
+#'   \item{\code{sqrt.length}}{the (square root transformed) length of the word in letters}
+#'   \item{\code{log.old}}{the (log-transformed) orthographic Levenshtein distance between the word and its 5 closest orthographic neighbors in 1810}
+#'   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors in 1810}
+#'   \item{\code{pos}}{the consistency of the mapping from orhography to phonology in 1810}
+#' }
+#' @source Michel, J. B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., Pickett, J. P., ... & Pinker, S. (2011). 
+#' Quantitative analysis of culture using millions of digitized books. science, 331(6014), 176-182.
+"hist.german"
+
+
+#' Lexical extinction data (Russian)
+#'
+#' Lexical extinction data for Russian based on the Google books n-gram data (Michel et al., 2011)
+#'
+#' @format A matrix with 50,072 rows and 8 columns:
+#' \describe{
+#'   \item{\code{word}}{the item in the word naming task}
+#'   \item{\code{time}}{time of the last observation; this equal 2000 if the word remained in the language and the decade in which the word disappeared from the language otherwise}
+#'   \item{\code{status}}{status of the word; 0 if the word remained in the language, 1 if the word disappeared from the language}
+#'   \item{\code{log.frequency}}{the (log-transformed) frequency of the word in the Google n-gram data for the decade from 1800 to 1810}
+#'   \item{\code{sqrt.length}}{the (square root transformed) length of the word in letters}
+#'   \item{\code{log.old}}{the (log-transformed) orthographic Levenshtein distance between the word and its 5 closest orthographic neighbors in 1810}
+#'   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors in 1810}
+#'   \item{\code{pos}}{the consistency of the mapping from orhography to phonology in 1810}
+#' }
+#' @source Michel, J. B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., Pickett, J. P., ... & Pinker, S. (2011). 
+#' Quantitative analysis of culture using millions of digitized books. science, 331(6014), 176-182.
+"hist.russian"
+
+
 
 
 
