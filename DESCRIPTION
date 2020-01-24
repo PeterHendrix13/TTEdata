@@ -4,6 +4,7 @@ Version: 1.0
 Authors@R: person("Peter", "Hendrix", email = "peter.hendrix@gmail.com", role = c("aut", "cre"))
 Description: Data sets for the final project for the class time-to-event analysis of linguistic data.
 License: do not distribute data
+Imports: survival, survminer, multcomp
 Encoding: UTF-8
 LazyData: yes
 RoxygenNote: 6.1.1
