@@ -21,7 +21,7 @@
 }}
 \source{
 Tucker, B. V., Brenner, D., Danielson, D. K., Kelley, M. C., Nenadić, F., & Sims, M. (2019). 
-The Massive Auditory Lexical Decision (MALD) database. Behavior Research Methods.
+The Massive Auditory Lexical Decision (MALD) database. Behavior Research Methods, 51(3), 1187-1204.
 }
 \usage{
 ald

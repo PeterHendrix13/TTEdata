@@ -24,6 +24,6 @@ ld.chin
 Lexical decision data for Mandarin Chinese from Tsang et al. (2018)
 }
 \references{
-Sun, C. C., Hendrix, P., Ma, J., & Baayen, R. H. (2018). Chinese lexical database (CLD). Behavior research methods, 50(6), 2606-2629.
+Sun, C. C., Hendrix, P., Ma, J., & Baayen, R. H. (2018). Chinese lexical database (CLD). Behavior Research Methods, 50(6), 2606-2629.
 }
 \keyword{datasets}

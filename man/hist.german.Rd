@@ -13,11 +13,11 @@
   \item{\code{sqrt.length}}{the (square root transformed) length of the word in letters}
   \item{\code{log.old}}{the (log-transformed) orthographic Levenshtein distance between the word and its 5 closest orthographic neighbors in 1810}
   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors in 1810}
-  \item{\code{pos}}{the consistency of the mapping from orhography to phonology in 1810}
+  \item{\code{osc}}{the consistency of the mapping from orhography to semantics in 1810}
 }}
 \source{
 Michel, J. B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., Pickett, J. P., ... & Pinker, S. (2011). 
-Quantitative analysis of culture using millions of digitized books. science, 331(6014), 176-182.
+Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176-182.
 }
 \usage{
 hist.german

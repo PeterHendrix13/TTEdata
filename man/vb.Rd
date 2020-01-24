@@ -20,7 +20,7 @@
 \source{
 Cohen-Shikora, E. R., Balota, D. A., Kapuria, A., & Yap, M. J. (2013). The past tense inflection 
 project (PTIP): Speeded past tense inflections, imageability ratings, and past tense consistency measures 
-for 2,200 verbs. Behavior research methods, 45(1), 151-159.
+for 2,200 verbs. Behavior Research Methods, 45(1), 151-159.
 }
 \usage{
 vb

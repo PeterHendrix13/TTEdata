@@ -65,7 +65,7 @@
 #'   \item{\code{sqrt.up}}{the (square root transformed) uniqueness point of the word; this is the phoneme at which a word a uniquely distinguishable from all other words}
 #' }
 #' @source Tucker, B. V., Brenner, D., Danielson, D. K., Kelley, M. C., Nenadić, F., & Sims, M. (2019). 
-#' The Massive Auditory Lexical Decision (MALD) database. Behavior Research Methods.
+#' The Massive Auditory Lexical Decision (MALD) database. Behavior Research Methods, 51(3), 1187-1204.
 #' 
 #' @references
 #' Brysbaert, M., New, B., & Keuleers, E. (2012). Adding part-of-speech information to the 
@@ -117,7 +117,7 @@
 #' }
 #' @source Cohen-Shikora, E. R., Balota, D. A., Kapuria, A., & Yap, M. J. (2013). The past tense inflection 
 #' project (PTIP): Speeded past tense inflections, imageability ratings, and past tense consistency measures 
-#' for 2,200 verbs. Behavior research methods, 45(1), 151-159.
+#' for 2,200 verbs. Behavior Research Methods, 45(1), 151-159.
 #' 
 #' @references
 #' Brysbaert, M., New, B., & Keuleers, E. (2012). Adding part-of-speech information to the 
@@ -142,7 +142,7 @@
 #' @source Tsang, Y. K., Huang, J., Lui, M., Xue, M., Chan, Y. W. F., Wang, S., & Chen, H. C. (2018). MELD-SCH: A megastudy of lexical decision in simplified Chinese. Behavior research methods, 50(5), 1763-1777.
 #' 
 #' @references
-#' Sun, C. C., Hendrix, P., Ma, J., & Baayen, R. H. (2018). Chinese lexical database (CLD). Behavior research methods, 50(6), 2606-2629.
+#' Sun, C. C., Hendrix, P., Ma, J., & Baayen, R. H. (2018). Chinese lexical database (CLD). Behavior Research Methods, 50(6), 2606-2629.
 "ld.chin"
 
 
@@ -159,10 +159,10 @@
 #'   \item{\code{sqrt.length}}{the (square root transformed) length of the word in letters}
 #'   \item{\code{log.old}}{the (log-transformed) orthographic Levenshtein distance between the word and its 5 closest orthographic neighbors in 1810}
 #'   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors in 1810}
-#'   \item{\code{pos}}{the consistency of the mapping from orhography to phonology in 1810}
+#'   \item{\code{osc}}{the consistency of the mapping from orhography to semantics in 1810}
 #' }
 #' @source Michel, J. B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., Pickett, J. P., ... & Pinker, S. (2011). 
-#' Quantitative analysis of culture using millions of digitized books. science, 331(6014), 176-182.
+#' Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176-182.
 "hist.english"
 
 
@@ -179,10 +179,10 @@
 #'   \item{\code{sqrt.length}}{the (square root transformed) length of the word in letters}
 #'   \item{\code{log.old}}{the (log-transformed) orthographic Levenshtein distance between the word and its 5 closest orthographic neighbors in 1810}
 #'   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors in 1810}
-#'   \item{\code{pos}}{the consistency of the mapping from orhography to phonology in 1810}
+#'   \item{\code{osc}}{the consistency of the mapping from orhography to semantics in 1810}
 #' }
 #' @source Michel, J. B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., Pickett, J. P., ... & Pinker, S. (2011). 
-#' Quantitative analysis of culture using millions of digitized books. science, 331(6014), 176-182.
+#' Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176-182.
 "hist.german"
 
 
@@ -199,10 +199,10 @@
 #'   \item{\code{sqrt.length}}{the (square root transformed) length of the word in letters}
 #'   \item{\code{log.old}}{the (log-transformed) orthographic Levenshtein distance between the word and its 5 closest orthographic neighbors in 1810}
 #'   \item{\code{snd}}{the average semantic similarity between the word and its 5 closest semantic neighbors in 1810}
-#'   \item{\code{pos}}{the consistency of the mapping from orhography to phonology in 1810}
+#'   \item{\code{osc}}{the consistency of the mapping from orhography to semantics in 1810}
 #' }
 #' @source Michel, J. B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., Pickett, J. P., ... & Pinker, S. (2011). 
-#' Quantitative analysis of culture using millions of digitized books. science, 331(6014), 176-182.
+#' Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176-182.
 "hist.russian"
 
 
